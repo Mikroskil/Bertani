@@ -1,0 +1,270 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+
+<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/backgrounddua"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin"
+    	tools:context=".MenuUtamaAbout" >
+
+    	<ImageView
+	        android:id="@+id/about"
+	        android:layout_width="60dp"
+	        android:layout_height="100dp"
+	        android:layout_marginTop="30dp"
+	        android:src="@drawable/angklung" />
+
+	    <TextView
+	        android:id="@+id/textView3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/textView1"
+	        android:layout_alignTop="@+id/about"
+	        android:layout_marginLeft="65dp"
+	        android:text="Angklung adalah alat musik tradisional yang pertama kali berkembang pada masyarakat berbahasa sunda di Jawa Barat. Alat musik ini terbuat dari bambu, dibunyikan dengan cara" />
+
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="134dp"
+	        android:text="digoyangkan (Bunyi disebabkan oleh benturan badan pipa bambu) sehingga menghasilkan bunyi yang bergetar.\nAngklung terdaftar sebagai Karya Agung Warisan Budaya Lisan dan Non Bendawi Manusia dari UNESCO sejak November 2010." />
+
+	    <TextView
+	        android:id="@+id/aboutus"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/textView3"
+	        android:layout_below="@+id/textView2"
+	        android:layout_marginLeft="27dp"
+	        android:gravity="center_horizontal"
+	        android:text="Developer:"
+	        android:textSize="14dp"
+	        android:textStyle="bold" />
+
+	    <TextView
+	        android:id="@+id/aboutus"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/textView3"
+	        android:layout_below="@+id/textView2"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginTop="15dp"
+	        android:gravity="center_vertical"
+	        android:text="Bertani Team"
+	        android:textSize="14dp"
+	        android:textStyle="bold" />
+
+	    <ImageView
+	        android:id="@+id/textView2"
+	        android:layout_width="100dp"
+	        android:layout_height="48dp"
+	        android:layout_alignLeft="@+id/textView1"
+	        android:layout_below="@+id/textView1"
+	        android:src="@drawable/aboutus" />
+
+	    <ImageView
+	        android:id="@+id/aboutangklung"
+	        android:layout_width="150dp"
+	        android:layout_height="75dp"
+	        android:layout_above="@+id/textView3"
+	        android:layout_alignLeft="@+id/about"
+	        android:layout_alignParentTop="true"
+	        android:src="@drawable/aboutang" />
+
+	    <ImageView
+	        android:id="@+id/ria"
+	        android:layout_width="35dp"
+	        android:layout_height="55dp"
+	        android:layout_alignRight="@+id/about"
+	        android:layout_below="@+id/toni"
+	        android:layout_marginTop="5dp"
+	        android:src="@drawable/riaang" />
+
+	    <TextView
+	        android:id="@+id/profiltoni"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/textView3"
+	        android:layout_alignTop="@+id/toni"	        
+	        android:layout_marginLeft="3dp"
+	        android:text="Toni Andika" />
+
+	    <TextView
+	        android:id="@+id/profiltari"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/textView3"
+	        android:layout_alignTop="@+id/tari"
+	        android:layout_marginLeft="3dp"
+	        android:text="Jasriani Mentari Purba" />
+
+	    <ImageView
+	        android:id="@+id/tari"
+	        android:layout_width="35dp"
+	        android:layout_height="55dp"
+	        android:layout_alignLeft="@+id/ria"
+	        android:layout_below="@+id/aboutus"
+	        android:layout_marginTop="14dp"
+	        android:src="@drawable/jasriani" />
+
+	    <TextView
+	        android:id="@+id/profilria"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/profiltoni"
+	        android:layout_alignTop="@+id/ria"
+	        android:text="Ria Anggriyani"/>
+
+	    <TextView
+	        android:id="@+id/profilberto"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/profilria"
+	        android:layout_alignTop="@+id/berto"
+	        android:text="Berto Eben Ezer Tarigan"/>
+
+	    <ImageView
+	        android:id="@+id/logo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="35dp"
+	        android:layout_below="@+id/berto"
+	        android:src="@drawable/mikro" />"
+
+	    <TextView
+	        android:id="@+id/akuntari"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/aboutus"
+	        android:layout_below="@+id/profiltari"
+	        android:text="Jasriani Mentari \n@JasrianiMentari" />"
+	    
+	    <ImageView
+	        android:id="@+id/tarifb"
+	        android:layout_width="20dp"
+	        android:layout_height="15dp"
+	        android:layout_alignLeft="@+id/textView3"
+	        android:layout_below="@+id/profiltari"
+	        android:src="@drawable/fb" />
+
+	    <ImageView
+	        android:id="@+id/taritwit"
+	        android:layout_width="20dp"
+	        android:layout_height="15dp"
+	        android:layout_marginTop="2dp"
+	        android:layout_alignLeft="@+id/tarifb"
+	        android:layout_below="@+id/tarifb"
+	        android:src="@drawable/twit" />
+
+	    <TextView
+	        android:id="@+id/akuntoni"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/profiltoni"
+	        android:layout_toRightOf="@+id/tonifb"
+	        android:text="Toni Andika \n@akidnaino93" />
+
+	    <ImageView
+	        android:id="@+id/riatwit"
+	        android:layout_width="20dp"
+	        android:layout_height="15dp"
+	        android:layout_alignLeft="@+id/riafb"
+	        android:layout_below="@+id/riafb"
+	        android:layout_marginTop="2dp"
+	        android:src="@drawable/twit" />
+
+	    <ImageView
+	        android:id="@+id/berto"
+	        android:layout_width="35dp"
+	        android:layout_height="55dp"
+	        android:layout_alignLeft="@+id/ria"
+	        android:layout_marginTop="5dp"
+	        android:layout_below="@+id/ria"
+	        android:src="@drawable/berto" />
+
+	    <ImageView
+	        android:id="@+id/toni"
+	        android:layout_width="35dp"
+	        android:layout_height="55dp"
+	        android:layout_alignLeft="@+id/tari"
+	        android:layout_below="@+id/akuntari"
+	        android:layout_marginTop="5dp"
+	        android:src="@drawable/tonii" />
+
+	    <TextView
+	        android:id="@+id/akunria"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/profilria"
+	        android:layout_toRightOf="@+id/taritwit"
+	        android:text="Ria Anggriyani \n@riaanggrya" />
+
+	    <ImageView
+	        android:id="@+id/tonitwit"
+	        android:layout_width="20dp"
+	        android:layout_height="15dp"
+	        android:layout_alignLeft="@+id/tonifb"
+	        android:layout_below="@+id/tonifb"
+	        android:src="@drawable/twit" />
+
+	    <ImageView
+	        android:id="@+id/riafb"
+	        android:layout_width="20dp"
+	        android:layout_height="15dp"
+	        android:layout_alignTop="@+id/akunria"
+	        android:layout_toLeftOf="@+id/akunria"
+	        android:src="@drawable/fb" />
+
+	    <ImageView
+	        android:id="@+id/tonifb"
+	        android:layout_width="20dp"
+	        android:layout_height="15dp"
+	        android:layout_alignLeft="@+id/taritwit"
+	        android:layout_alignTop="@+id/akuntoni"
+	        android:layout_marginTop="2dp"
+	        android:src="@drawable/fb" />
+
+	    <ImageView
+	        android:id="@+id/fb"
+	        android:layout_width="20dp"
+	        android:layout_height="15dp"
+	        android:layout_alignLeft="@+id/riatwit"
+	        android:layout_below="@+id/profilberto"
+	        android:src="@drawable/fb" />
+
+	    <TextView
+	        android:id="@+id/akunberto"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignTop="@+id/fb"
+	        android:layout_toRightOf="@+id/fb"
+	        android:text="Eben Ezer \n@BertoEzer" />
+
+	    <ImageView
+	        android:id="@+id/bertotwit"
+	        android:layout_width="20dp"
+	        android:layout_height="15dp"
+	        android:layout_below="@+id/fb"
+	        android:layout_toLeftOf="@+id/akunberto"
+	        android:layout_marginTop="2dp"
+	        android:src="@drawable/twit" />
+
+	    <TextView
+	        android:id="@+id/copy"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/logo"
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center_horizontal"
+	        android:text="CopyRight © 2013 Bertani Team"
+	        android:textColor="#fff" />
+
+</RelativeLayout>
+
+</ScrollView>
