@@ -1,0 +1,44 @@
+package com.example.berisikangklung;
+
+import android.media.MediaPlayer;
+import android.os.Bundle;
+import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.view.Menu;
+import android.view.View;
+import android.widget.ImageView;
+
+@SuppressLint("NewApi")
+public class AngklungLa extends Activity {
+
+	@SuppressLint("NewApi")
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.angklung_la);
+		
+	final MediaPlayer imagesound = MediaPlayer.create(AngklungLa.this,R.raw.lafile);
+		
+		ImageView img = (ImageView) findViewById(R.id.angklungla);
+		img.setOnClickListener(new View.OnClickListener(){
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				imagesound.start();
+			}
+		
+		});
+	}		
+	@Override
+	protected void onPause(){
+		super.onPause();
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.angklung_la, menu);
+		return true;
+	}
+
+}
