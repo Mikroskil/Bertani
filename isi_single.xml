@@ -1,164 +1,75 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-	android:layout_height="match_parent">
-	
-<LinearLayout 
-	android:layout_width="fill_parent"
+    android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical"
-	android:background="#000"
-	tools:context=".Single" >
-	<ImageView 
-    	android:src="@drawable/angklung"
-    	android:id="@+id/angklung1"
-    	android:layout_width="450dp"
-    	android:layout_height="340dp"
-    	android:layout_gravity="center"/>
-    <TextView 
-    	android:id="@+id/text1"
-    	android:text="do"
-    	android:layout_gravity="center"
-    	android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
-    	android:textColor="#960" 
-    	android:textSize="40dp"
-    	android:textStyle="bold"
-    />
-     
-    <ImageView 
-    	android:src="@drawable/angklung" 
-    	android:id="@+id/angklung2"
-    	android:layout_width="450dp"
-    	android:layout_height="340dp"
-    	android:layout_gravity="center"
-    	android:paddingTop="15dp"
-    />  
-    <TextView 
-    	android:id="@+id/text2"
-    	android:text="re"
-    	android:layout_gravity="center"
-    	android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
-    	android:textColor="#960" 
-    	android:textSize="40dp"
-    	android:textStyle="bold"
-    />
-       
-    <ImageView 
-    	android:src="@drawable/angklung" 
-    	android:id="@+id/angklung3"
-    	android:layout_width="450dp"
-    	android:layout_height="340dp"
-    	android:layout_gravity="center"
-    	android:paddingTop="15dp"
-    />  
-    <TextView 
-    	android:id="@+id/text3"
-    	android:text="mi"
-    	android:layout_gravity="center"
-    	android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
-    	android:textColor="#960" 
-    	android:textSize="40dp"
-    	android:textStyle="bold"
-    />
-       
-    <ImageView 
-    	android:src="@drawable/angklung" 
-    	android:id="@+id/angklung4"
-    	android:layout_width="450dp"
-    	android:layout_height="340dp"
-    	android:paddingTop="15dp"
-    	android:layout_gravity="center"
-    />  
-    <TextView 
-    	android:id="@+id/text4"
-    	android:text="fa"
-    	android:layout_gravity="center"
-    	android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
-    	android:textColor="#960" 
-    	android:textSize="40dp"
-    	android:textStyle="bold"
-    />
-       
-    <ImageView 
-        android:paddingTop="15dp"
-    	android:src="@drawable/angklung" 
-    	android:id="@+id/angklung5"
-    	android:layout_width="450dp"
-    	android:layout_height="340dp"
-    	android:layout_gravity="center"
-    />  
-    <TextView 
-    	android:id="@+id/text5"
-    	android:text="so"
-    	android:layout_gravity="center"
-    	android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
-    	android:textColor="#960" 
-    	android:textSize="40dp"
-    	android:textStyle="bold"
-    />
-    
-    <ImageView 
-        android:paddingTop="15dp"
-    	android:src="@drawable/angklung" 
-    	android:id="@+id/angklung6"
-    	android:layout_width="450dp"
-    	android:layout_height="340dp"
-    	android:layout_gravity="center"
-    />  
-    <TextView 
-    	android:id="@+id/text6"
-    	android:text="la"
-    	android:layout_gravity="center"
-    	android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
-    	android:textColor="#960" 
-    	android:textSize="40dp"
-    	android:textStyle="bold"
-    />
-      
-    <ImageView 
-        android:paddingTop="15dp"
-    	android:src="@drawable/angklung" 
-    	android:id="@+id/angklung7"
-    	android:layout_width="450dp"
-    	android:layout_height="340dp"
-    	android:layout_gravity="center"
-    />  
-    <TextView 
-    	android:id="@+id/text7"
-    	android:text="si"
-    	android:layout_gravity="center"
-    	android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
-    	android:textColor="#960" 
-    	android:textSize="40dp"
-    	android:textStyle="bold"
-    />
-    
-    <ImageView 
-        android:paddingTop="15dp"
-    	android:src="@drawable/angklung" 
-    	android:id="@+id/angklung8"
-    	android:layout_width="450dp"
-    	android:layout_height="340dp"
-    	android:layout_gravity="center"
-    />  
-    <TextView 
-    	android:id="@+id/text8"
-    	android:text="do'"
-    	android:layout_gravity="center"
-    	android:layout_width="wrap_content"
-    	android:layout_height="wrap_content"
-    	android:textColor="#960" 
-    	android:textSize="40dp"
-    	android:textStyle="bold"
-    />   
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_gravity="fill_horizontal"
+    android:background="@drawable/backgrounddua"
+    tools:context=".Single" >
+
+	<ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="70dp"
+        android:layout_height="200dp"
+        android:layout_marginRight="13dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/angklung" />
+
+    <ImageView
+        android:id="@+id/gambar2"
+        android:layout_width="66dp"
+        android:layout_height="200dp"
+        android:layout_marginRight="13dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/angklung" />
+
+    <ImageView
+        android:id="@+id/gambar3"
+        android:layout_width="62dp"
+        android:layout_height="200dp"
+        android:layout_marginRight="13dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/angklung" />
+
+    <ImageView
+        android:id="@+id/gambar4"
+        android:layout_width="58dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="13dp"
+        android:src="@drawable/angklung" />
+
+    <ImageView
+        android:id="@+id/gambar5"
+        android:layout_width="53dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="13dp"
+        android:src="@drawable/angklung" />
+
+    <ImageView
+        android:id="@+id/gambar6"
+        android:layout_width="48dp"
+        android:layout_height="200dp"
+        android:layout_marginRight="13dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/angklung" />
+
+    <ImageView
+        android:id="@+id/gambar7"
+        android:layout_width="43dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="13dp"
+        android:src="@drawable/angklung" />
+
+    <ImageView
+        android:id="@+id/gambar8"
+        android:layout_width="38dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="13dp"
+        android:src="@drawable/angklung" />
+
 </LinearLayout>
-</ScrollView>	 
-	
-    
