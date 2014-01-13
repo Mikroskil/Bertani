@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgrounddua"
+    tools:context=".TanpaDaftarLagu" >
+
+	<ImageView
+	    android:id="@+id/multiple"
+	    android:layout_width="wrap_content"
+	    android:layout_height="240dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentRight="true"
+	    android:src="@drawable/multiplekosong" />
+
+	<ImageView
+	    android:id="@+id/multipledo"
+	    android:layout_width="wrap_content"
+	    android:layout_height="180dp"
+	    android:layout_alignParentTop="true"
+	   android:layout_toRightOf="@+id/multipledotinggi"
+	    android:src="@drawable/multipledo" />
+
+	<ImageView
+	    android:id="@+id/multiplesi"
+	    android:layout_width="wrap_content"
+	    android:layout_height="120dp"
+	    android:layout_alignBottom="@+id/multipledotinggi"
+	    android:layout_toLeftOf="@+id/multipledotinggi"
+	    android:src="@drawable/multipledo" />
+
+	<ImageView
+	    android:id="@+id/multiplela"
+	    android:layout_width="wrap_content"
+	    android:layout_height="130dp"
+	    android:layout_alignBottom="@+id/multiplesi"
+	    android:layout_toLeftOf="@+id/multiplesi"
+	    android:src="@drawable/multipledo" />
+
+	<ImageView
+	    android:id="@+id/multipledotinggi"
+	    android:layout_width="wrap_content"
+	    android:layout_height="110dp"
+	    android:layout_alignBottom="@+id/multiplere"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="44dp"
+	    android:src="@drawable/multipledo" />
+
+	<ImageView
+	    android:id="@+id/multiplere"
+	    android:layout_width="wrap_content"
+	    android:layout_height="170dp"
+	    android:layout_alignParentTop="true"
+	    android:layout_toLeftOf="@+id/multiplemi"
+	    android:src="@drawable/multipledo" />
+
+	<ImageView
+	    android:id="@+id/multiplemi"
+	    android:layout_width="wrap_content"
+	    android:layout_height="160dp"
+	    android:layout_alignBottom="@+id/multiplere"
+	    android:layout_toLeftOf="@+id/multiplefa"
+	    android:src="@drawable/multipledo" />
+
+	<ImageView
+	    android:id="@+id/multiplesol"
+	    android:layout_width="wrap_content"
+	    android:layout_height="140dp"
+	    android:layout_alignBottom="@+id/multiplela"
+	    android:layout_toLeftOf="@+id/multiplela"
+	    android:src="@drawable/multipledo" />
+
+	<ImageView
+	    android:id="@+id/multiplefa"
+	    android:layout_width="wrap_content"
+	    android:layout_height="150dp"
+	    android:layout_alignTop="@+id/multiple"
+	    android:layout_toLeftOf="@+id/multiplesol"
+	    android:src="@drawable/multipledo" />
+
+	<ImageView
+	    android:id="@+id/multipledo"
+	    android:layout_width="wrap_content"
+	    android:layout_height="180dp"
+	    android:layout_alignParentTop="true"
+	    android:layout_toLeftOf="@+id/multiplere"
+	    android:src="@drawable/multipledo" />
+
+</RelativeLayout>
